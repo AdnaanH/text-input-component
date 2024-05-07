@@ -64,6 +64,7 @@ small {
   background-color: var(--secondary);
   padding: 7px 10px;
   border-radius: 6px;
+  transition: .5s ease-in;
 }
 
 #email3::placeholder {
