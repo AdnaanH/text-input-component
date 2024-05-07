@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Text Input Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.ico" sizes="any" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="group">
+          <label for="email1">Email</label>
+          <div class="emailInput">
+            <input type="email" id="email1" placeholder="name@email.com" class="input">
+            <img src="./img/question.png" alt="">
+          </div>
+          <small>This is a hint text.</small>
+        </div>
+        <div class="group">
+          <label for="email2">Email</label>
+          <div class="emailInput">
+            <img src="./img/email.png" class="icon" alt="email">
+            <input type="email" id="email2" placeholder="name@email.com" class="input">
+            <img src="./img/question.png" alt="question-mark">
+          </div>
+          <small>This is a hint text.</small>
+        </div>
+        <div class="group">
+          <label for="email3">Email</label>
+          <div class="emailInput">
+            <input type="email" id="email3" placeholder="name@email.com" class="input">
+            <img src="./img/question.png" alt="question-mark">
+          </div>
+          <small>This is a hint text.</small>
+        </div>
+        <div class="group">
+          <label for="email4">Email</label>
+          <div class="emailInput" id="emailInput">
+            <input type="email" id="email4" placeholder="name@email.com" class="input">
+            <img src="./img/question-alert.png" alt="question-mark-alert">
+          </div>
+          <small class="alert" id="alert">This is an error message.</small>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
